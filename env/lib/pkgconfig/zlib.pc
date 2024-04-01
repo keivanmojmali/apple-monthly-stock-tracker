@@ -1,0 +1,13 @@
+prefix=/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env
+exec_prefix=/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env
+libdir=/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env/lib
+sharedlibdir=/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env/lib
+includedir=/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

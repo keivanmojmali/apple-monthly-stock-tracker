@@ -1,0 +1,13 @@
+prefix=/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.10.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env/lib -lz -L/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env/lib -llzma -lpthread -L/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env/lib -liconv -L/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env/lib -licui18n -licuuc -licudata   
+Cflags: -I${includedir}/libxml2 -I/Users/keivan/Desktop/ml-repos/apple-monthly-stock-tracker/env/include 
