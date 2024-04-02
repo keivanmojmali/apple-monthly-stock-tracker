@@ -178,3 +178,8 @@
 +defaults/osx-arm64::zlib-1.2.13-h5a0b063_0
 +defaults/osx-arm64::zstd-1.5.5-hd90d995_0
 # update specs: ['jupyter', 'matplotlib', 'numpy', 'pandas', 'scikit-learn']
+==> 2024-04-02 13:26:37 <==
+# cmd: /opt/miniconda3/bin/conda install seaborn
+# conda version: 24.1.2
++defaults/osx-arm64::seaborn-0.12.2-py312hca03da5_0
+# update specs: ['seaborn']
